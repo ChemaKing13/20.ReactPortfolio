@@ -3,20 +3,57 @@ import React from 'react';
 const projects = [
   {
     id: 1,
-    title: 'Project 1',
-    description: 'Description of Project 1.',
-    imageUrl: 'project1-image-url.jpg', // Add the URL of an image representing the project
-    demoUrl: 'https://project1-demo.com', // Add the URL to the live demo of the project
-    codeUrl: 'https://github.com/user/project1', // Add the URL to the GitHub repository
+    title: 'Opti Crew',
+    imageSrc: './images/opticrew.png',
+    description: 'Description of Project 1',
   },
-  // Add more project objects with similar structure for your other projects
+  {
+    id: 2,
+    title: 'Progressive Web App',
+    imageSrc: './images/project2.jpg',
+    description: 'Description of Project 2',
+  },
+  {
+    id: 3,
+    title: 'Meal PreApp',
+    imageSrc: './images/project2.jpg',
+    description: 'Description of Project 2',
+  },
+  {
+    id: 4,
+    title: 'Tech Blog',
+    imageSrc: './images/project2.jpg',
+    description: 'Description of Project 2',
+  },
+  {
+    id: 5,
+    title: 'Social Network Api',
+    imageSrc: './images/project2.jpg',
+    description: 'Description of Project 2',
+  },
+  {
+    id: 6,
+    title: 'Project 6',
+    imageSrc: './images/project2.jpg',
+    description: 'Description of Project 2',
+  },
 ];
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
-      <h2>Portfolio</h2>
-    </div>
+    <section className="portfolio">
+      <div className="container">
+        <div className="projects">
+          {projects.map((project) => (
+            <div key={project.id} className="project">
+              <img src={project.imageSrc} alt={project.title} />
+              {/* <h3>{project.title}</h3>
+              <p>{project.description}</p> */}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

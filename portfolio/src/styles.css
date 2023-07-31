@@ -172,8 +172,72 @@ body {
 .lets-start-button:hover {
     background-color: #45a049; 
 }
-  
 
+/* /portfolio styling */
+.portfolio {
+    padding: 2rem 0;
+    background-color: #f0f0f0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem;
+    justify-content: center; 
+}
+
+.project:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+}
+
+
+
+.project:last-child {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+}
+
+
+  
+.project {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+  
+.project img {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+  
+.project h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+  
+.project p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+  
   
   
   
