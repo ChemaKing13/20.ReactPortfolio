@@ -16,23 +16,6 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
       <h2>Portfolio</h2>
-      <div className="project-list">
-        {projects.map((project) => (
-          <div className="project" key={project.id}>
-            <img src={project.imageUrl} alt={project.title} />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <div className="project-links">
-              <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                Live Demo
-              </a>
-              <a href={project.codeUrl} target="_blank" rel="noopener noreferrer">
-                Source Code
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
