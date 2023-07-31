@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --grey: #CDD5D1;
+    --green: #276221; 
+}
+
 * {
     box-sizing: border-box;
 }
@@ -12,7 +19,7 @@ body {
 
 /* navbar styling */
 .nav {
-    background-color: #276221;
+    background-color: var(--green);
     color: white; 
     display: flex;
     justify-content: space-between;
@@ -49,6 +56,7 @@ body {
     display: flex; 
     align-items: center; 
     padding: .25rem; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav li.active {
@@ -96,44 +104,46 @@ body {
     text-decoration: none;
 }
   
-/* About Me Section */
+/* About Me style */
 .about-me {
     padding: 2rem 0;
-    background-color: #f0f0f0;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
 }
-  
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
 }
-  
+
 .about-me-content {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-  
+
 .about-me-text {
     flex: 1;
+    text-align: center;
 }
-  
-.about-me-text h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-  
+
 .about-me-text p {
     font-size: 1.1rem;
     line-height: 1.6;
+    text-align: justify;
 }
-  
+
 .about-me-image img {
     max-width: 65%;
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: bounce 2s infinite;
 }
+
   
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -146,6 +156,30 @@ body {
       transform: translateY(-15px);
     }
 }
+
+/* lets start hover  */
+.lets-start-button {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+  
+.lets-start-button:hover {
+    background-color: #45a049; 
+}
+  
+
+  
+  
+  
+  
+  
+
   
 
   
