@@ -1,10 +1,6 @@
 import Navbar from "./components/Navbar"
 import { Route, Routes } from 'react-router'
-import AboutMe from './components/AboutMe'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Resume from './components/Resume'
-import Footer from './components/Footer'
+import { Footer, Contact, Portfolio, AboutMe, Resume } from './components'
 
 //define the app component
 //it represents the main container of the website
