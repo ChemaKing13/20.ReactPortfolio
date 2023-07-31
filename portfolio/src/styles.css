@@ -7,7 +7,7 @@ body {
 }
 
 .nav {
-    background-color: #2E6171;
+    background-color: #276221;
     color: white; 
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ body {
 /* footer.css */
 
 .footer {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -91,4 +91,35 @@ body {
     text-decoration: none;
 }
   
+/* Style for the About Me section */
+.about-me {
+    padding: 2rem 0;
+}
   
+  /* Container for the content and image */
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  /* Style for the text content on the left side */
+.about-me-text {
+    flex: 1;
+    margin-right: 2rem;
+}
+  
+  /* Style for the image on the right side */
+.about-me-image {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+  
+  /* Make the image larger */
+.about-me-image img {
+    max-width: 100%;
+    max-height: 400px; /* Adjust the height as per your preference */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
