@@ -6,8 +6,9 @@ body {
     margin: 0;
 }
 
+/* navbar styling */
 .nav {
-    background-color: #2E6171;
+    background-color: #276221;
     color: white; 
     display: flex;
     justify-content: space-between;
@@ -60,7 +61,7 @@ body {
 /* footer.css */
 
 .footer {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -91,4 +92,59 @@ body {
     text-decoration: none;
 }
   
+/* about me css */
+
+.about-me {
+    padding: 2rem 0;
+}
+  
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+
+.about-me-text {
+    flex: 1;
+    margin-right: 2rem;
+}
+  
+
+.about-me-image {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+  
+
+.about-me-image img {
+    max-width: 100%;
+    max-height: 400px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* tailwind animation for our image */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+}
+  
+
+.about-me-image img {
+    animation: bounce 2s infinite; 
+}
   
