@@ -15,7 +15,7 @@ const AboutMe = () => {
               [More about yourself and your experiences, skills, and interests.]
             </p>
           </div>
-          <div className="about-me-image">
+          <div className="about-me-image animation-bounce">
             <img src='./images/pic.JPG' alt="My Picture" />
           </div>
         </div>
