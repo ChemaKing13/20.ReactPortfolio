@@ -172,14 +172,203 @@ body {
 .lets-start-button:hover {
     background-color: #45a049; 
 }
+
+/* /portfolio styling */
+.portfolio {
+    padding: 2rem 0;
+    background-color: #f0f0f0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem;
+    justify-content: center 
+}
+
+.project:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+}
+
+
+
+.project:last-child {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+}
+
+.project:nth-child(5) {
+    background-color: var(--green);
+}
+
+
+  
+.project {
+    background-color: none;
+    border-radius: 50px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+  
+.project img {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50px;
+    background-size: cover;
+}
+  
+.project h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+  
+.project p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+  
+/* contact styling  */
+.contact {
+    padding: 2rem 0;
+    background-color: #f0f0f0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+  
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 30%;
+}
+
+label {
+    font-family: 'Your Custom Font', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+}
+  
+  
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+  
+.form-group {
+    margin-bottom: 1rem;
+}
+  
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+  
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+textarea {
+    resize: vertical;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+button {
+    background-color: var(--green);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: green;
+}
+
+/* .error-message {
+    color: gre;
+    margin-top: 0.5rem;
+} */
+  
+/* resume styles */
+.resume {
+    padding: 2rem 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+  
+.resume-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+  
+.proficiencies-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: inline-block;
+}
+  
+.proficiency-type {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+  
+.proficiency-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.proficiency-item {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #777;
+    line-height: 1.6;
+}
   
 
   
-  
-  
-  
-  
-
-  
-
   
