@@ -323,7 +323,52 @@ button:hover {
     margin-top: 0.5rem;
 } */
   
+/* resume styles */
+.resume {
+    padding: 2rem 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    text-align: center;
+}
   
+.resume-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+  
+.proficiencies-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: inline-block;
+}
+  
+.proficiency-type {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+  
+.proficiency-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.proficiency-item {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #777;
+    line-height: 1.6;
+}
   
 
+  
   

@@ -8,6 +8,7 @@ const age = '23'
 const AboutMe = () => {
   return (
     <section className="about-me">
+      <h2>About Me</h2>
       <div className="container">
         <div className="about-me-content">
           <div className="about-me-text">

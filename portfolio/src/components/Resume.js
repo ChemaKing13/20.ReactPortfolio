@@ -14,13 +14,13 @@ const proficiencies = [
 const Resume = () => {
   return (
     <div className="resume">
-      <h2>Resume</h2>
+      <h2 className='resume-title'>Resume</h2>
       {proficiencies.map((end) => (
         <div key={end.type} className="proficiencies-section">
-          <h3>{end.type} Proficiencies</h3>
+          <h3 className='proficiency-type'>{end.type} Proficiencies</h3>
           <ul className="proficiency-list">
             {end.list.map((proficiency, index) => (
-              <li key={index}>{proficiency}</li>
+              <li key={index} className='proficiency-item'>{proficiency}</li>
             ))}
           </ul>
         </div>
