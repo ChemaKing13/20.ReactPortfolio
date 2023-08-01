@@ -39,9 +39,11 @@ const projects = [
   },
 ];
 
+
 const Portfolio = () => {
   return (
     <section className="portfolio">
+      <h2>Portfolio</h2>
       <div className="container">
         <div className="projects">
           {projects.map((project) => (
