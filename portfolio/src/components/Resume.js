@@ -1,22 +1,22 @@
 import React from 'react';
 
-const technologies = [
-  'HTML',
+const frontEnd = [
+  'HTML', 
   'CSS',
-  'JavaScript',
-  'React',
-  'Node.js',
+  'JavaScript', 
+  'JQuery', 
+  'responsive design',
+  'React', 
+  'Bootstrap'
+]
+
+const backEnd = [
+  'APIs', 
+  'Node.js', 
   'Express.js',
-  'MongoDB',
-  // Add more technologies you know
-];
+  'MySQL, Sequelize', 
+  'MongoDB, Mongoose', 
+  'Rest', 
+  'GraphQL'
+]
 
-const Resume = () => {
-  return (
-    <div className="resume">
-      <h2>Resume</h2>
-    </div>
-  );
-};
-
-export default Resume;
