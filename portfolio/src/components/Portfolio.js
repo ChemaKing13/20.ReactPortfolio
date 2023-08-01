@@ -16,25 +16,25 @@ const projects = [
   {
     id: 3,
     title: 'Meal PreApp',
-    imageSrc: './images/project2.jpg',
+    imageSrc: './images/meal.png',
     description: 'Description of Project 2',
   },
   {
     id: 4,
     title: 'Tech Blog',
-    imageSrc: './images/project2.jpg',
+    imageSrc: './images/teg',
     description: 'Description of Project 2',
   },
   {
     id: 5,
     title: 'Social Network Api',
-    imageSrc: './images/project2.jpg',
+    imageSrc: './images/api.png',
     description: 'Description of Project 2',
   },
   {
     id: 6,
     title: 'Project 6',
-    imageSrc: './images/project2.jpg',
+    imageSrc: './images/tech.png',
     description: 'Description of Project 2',
   },
 ];
