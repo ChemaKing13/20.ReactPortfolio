@@ -10,7 +10,7 @@ const projects = [
   {
     id: 2,
     title: 'Progressive Web App',
-    imageSrc: './images/project2.jpg',
+    imageSrc: './images/password.png',
     description: 'Description of Project 2',
   },
   {
@@ -22,19 +22,19 @@ const projects = [
   {
     id: 4,
     title: 'Tech Blog',
-    imageSrc: './images/teg',
+    imageSrc: './images/note.png',
     description: 'Description of Project 2',
   },
   {
     id: 5,
     title: 'Social Network Api',
-    imageSrc: './images/api.png',
+    imageSrc: './images/ecommerce.png',
     description: 'Description of Project 2',
   },
   {
     id: 6,
     title: 'Project 6',
-    imageSrc: './images/tech.png',
+    imageSrc: './images/underconst.png',
     description: 'Description of Project 2',
   },
 ];

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 //this array contains all the proficiencies inside an array, but they are separated by types
 const proficiencies = [
@@ -12,6 +12,21 @@ const proficiencies = [
 //end.type + Proefencies will render the h3 for each list
 //then we render each ul
 const Resume = () => {
+  
+  const [downloadedText, setDownloadedText] = useState(''); 
+
+  const handleDownloadClick = () => {
+
+    const textContent = proficiencies
+      .map((end) => `${end.type} Proficiencies:\n${end.list.join('\n')}\n\n`)
+      .join('\n');
+
+    const blob = new Blob
+  }
+
+
+
+
   return (
     <div className="resume">
       <h2 className='resume-title'>Resume</h2>
