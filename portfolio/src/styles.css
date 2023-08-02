@@ -111,6 +111,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -176,7 +185,17 @@ body {
 /* /portfolio styling */
 .portfolio {
     padding: 2rem 0;
-    background-color: #f0f0f0;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
 }
   
 .container {
@@ -209,12 +228,6 @@ body {
     width: 100%;
 }
 
-.project:nth-child(5) {
-
-}
-
-
-  
 .project {
     background-color: none;
     border-radius: 50px;
@@ -246,9 +259,20 @@ body {
 /* contact styling  */
 .contact {
     padding: 2rem 0;
-    background-color: #f0f0f0;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
 }
-  
+
+.contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -326,8 +350,8 @@ button:hover {
 /* resume styles */
 .resume {
     padding: 2rem 0;
-    background-color: #f0f0f0;
-    font-family: 'Arial', sans-serif;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
     align-items: center;
     text-align: center;
 }

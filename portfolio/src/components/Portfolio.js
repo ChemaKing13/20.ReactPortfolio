@@ -43,7 +43,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <section className="portfolio">
-      <h2>Portfolio</h2>
+      <h2 className='portfolio-title'>Portfolio</h2>
       <div className="container">
         <div className="projects">
           {projects.map((project) => (
