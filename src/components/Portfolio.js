@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Social Network Api',
+    title: 'E-CommerceBackEnd ',
     imageSrc: './images/ecommerce.png',
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/13.E-CommerceBackEnd'
