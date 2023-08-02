@@ -111,6 +111,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -176,7 +185,17 @@ body {
 /* /portfolio styling */
 .portfolio {
     padding: 2rem 0;
-    background-color: #f0f0f0;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
 }
   
 .container {
@@ -209,27 +228,83 @@ body {
     width: 100%;
 }
 
-.project:nth-child(5) {
-
-}
-
-
-  
 .project {
     background-color: none;
     border-radius: 50px;
     padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 500px;
     height: 500px;
+    position: relative;
 }
   
 .project img {
     height: 100%;
     max-width: 100%;
     border-radius: 50px;
-    background-size: cover;
+    background-size: cover; 
+    border: none;
+    border-style: none;
+    transition: transform 0.3s;
+    display: block;
+}
+
+
+.project:hover img {
+    opacity: 0.6;
+    transform: scale(1.1); 
+}
+
+.github-icon {
+    margin-top: 1rem; 
+    font-size: 3rem;
+    color: black;
+}
+
+.content {
+    position: absolute; 
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    opacity: 0;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+  
+
+.project::before {
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+
+.project:hover::before {
+    opacity: 1; 
+}
+
+
+
+.project:first-child img {
+    height: 110%;
+    width: 110%;
+}
+
+.project:nth-child(3) img {
+    height: 100%;
+    width: 100%;
 }
   
 .project h3 {
@@ -246,9 +321,20 @@ body {
 /* contact styling  */
 .contact {
     padding: 2rem 0;
-    background-color: #f0f0f0;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
 }
-  
+
+.contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -323,11 +409,13 @@ button:hover {
     margin-top: 0.5rem;
 } */
   
+
 /* resume styles */
+
 .resume {
     padding: 2rem 0;
-    background-color: #f0f0f0;
-    font-family: 'Arial', sans-serif;
+    background-color: #CDD5D1;
+    font-family: 'Roboto', sans-serif;
     align-items: center;
     text-align: center;
 }
@@ -362,12 +450,14 @@ button:hover {
     margin: 0;
 }
   
-.proficiency-item {
+.proficiency-list .proficiency-item {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
     color: #777;
     line-height: 1.6;
 }
+  
+  
   
 
   
