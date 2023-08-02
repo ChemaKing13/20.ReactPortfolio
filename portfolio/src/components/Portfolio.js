@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: 'Opti Crew',
-    imageSrc: './images/opticrew.png',
+    imageSrc: './images/opti.png',
     description: 'Description of Project 1',
   },
   {
