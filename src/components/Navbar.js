@@ -4,8 +4,10 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 //define the Navbar component
 export default function Navbar() {
+
+
   return (
-    <nav className="nav">
+    <nav className='nav'>
       <Link to="/" className="site-title">
         <img src='./images/logo1.png' alt='logo' className='logo' />   
       </Link>
