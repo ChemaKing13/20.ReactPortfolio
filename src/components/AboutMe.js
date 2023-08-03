@@ -24,7 +24,7 @@ const AboutMe = () => {
             </Link>
           </div>
           <div className="about-me-image animation-bounce">
-            <img src='./images/pic.JPG' alt="My Picture" />
+            <img src='./assets/images/pic.JPG' alt="My Picture" />
           </div>
         </div>
       </div>
