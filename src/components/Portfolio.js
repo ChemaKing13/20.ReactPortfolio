@@ -6,42 +6,42 @@ const projects = [
   {
     id: 1,
     title: 'Opti Crew',
-    imageSrc: './assets/images/opti.png',
+    imageSrc: '../assets/opti.png',
     description: 'Description of Project 1',
     githubLink: 'https://github.com/jony0418/OptiCrew'
   },
   {
     id: 2,
     title: 'Password Strength Tester',
-    imageSrc: './assets/images/password.png',
+    imageSrc: '../assets/password.png',
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/PasswordStrengthTester'
   },
   {
     id: 3,
     title: 'Meal PreApp',
-    imageSrc: './assets/images/meal.png',
+    imageSrc: '../assets/meal.png',
     description: 'Description of Project 2',
     githubLink: 'https://github.com/Maelikah/P1_MealPreApp'
   },
   {
     id: 4,
     title: 'Note Taker',
-    imageSrc: './assets/images/note.png',
+    imageSrc: '../assets/note.png',
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/11.NoteTaker'
   },
   {
     id: 5,
     title: 'E-CommerceBackEnd ',
-    imageSrc: './assets/images/ecommerce.png',
+    imageSrc: '../assets/ecommerce.png',
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/13.E-CommerceBackEnd'
   },
   {
     id: 6,
     title: 'Project 6',
-    imageSrc: './assets/images/underconst.png',
+    imageSrc: '../assets/underconst.png',
     description: 'Description of Project 2',
     githubLink: '',
   },
