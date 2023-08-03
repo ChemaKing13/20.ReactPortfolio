@@ -1,47 +1,53 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import project1 from '../assets/opti.png';
+import project2 from  '../assets/password.png';
+import project3 from  '../assets/meal.png'; 
+import project4 from '../assets/note.png';
+import project5 from  '../assets/ecommerce.png'; 
+import project6 from '../assets/underconst.png'; 
 
 const projects = [
   {
     id: 1,
     title: 'Opti Crew',
-    imageSrc: '../assets/opti.png',
+    imageSrc: project1,
     description: 'Description of Project 1',
     githubLink: 'https://github.com/jony0418/OptiCrew'
   },
   {
     id: 2,
     title: 'Password Strength Tester',
-    imageSrc: '../assets/password.png',
+    imageSrc: project2,
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/PasswordStrengthTester'
   },
   {
     id: 3,
     title: 'Meal PreApp',
-    imageSrc: '../assets/meal.png',
+    imageSrc: project3,
     description: 'Description of Project 2',
     githubLink: 'https://github.com/Maelikah/P1_MealPreApp'
   },
   {
     id: 4,
     title: 'Note Taker',
-    imageSrc: '../assets/note.png',
+    imageSrc: project4,
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/11.NoteTaker'
   },
   {
     id: 5,
     title: 'E-CommerceBackEnd ',
-    imageSrc: '../assets/ecommerce.png',
+    imageSrc: project5,
     description: 'Description of Project 2',
     githubLink: 'https://github.com/ChemaKing13/13.E-CommerceBackEnd'
   },
   {
     id: 6,
     title: 'Project 6',
-    imageSrc: '../assets/underconst.png',
+    imageSrc: project6,
     description: 'Description of Project 2',
     githubLink: '',
   },
