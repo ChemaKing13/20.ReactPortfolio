@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import pic from '../assets/pic.JPG'; 
 
 
 const name = 'José María Hernández'
@@ -26,7 +27,7 @@ const AboutMe = () => {
             </Link>
           </div>
           <div className="about-me-image animation-bounce">
-            <img src='../assets/pic.JPG' alt="My Picture" />
+            <img src={pic} alt="My Picture" />
           </div>
         </div>
       </div>

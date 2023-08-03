@@ -1,6 +1,8 @@
 import React from 'react';
 //we import some components from react package
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import logo from '../assets/logo1.png'; 
+
 
 //define the Navbar component
 export default function Navbar() {
@@ -9,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className='nav'>
       <Link to="/" className="site-title">
-        <img src='../assets/logo1.png' alt='logo' className='logo' />   
+        <img src={logo} alt='logo' className='logo' />   
       </Link>
       <ul>
         <li>
