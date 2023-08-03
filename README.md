@@ -2,7 +2,44 @@
 
 This portfolio website is built using React and showcases my latest projects, provides information about my skills and experiences, and allows visitors to contact me. 
 
-
 ## Table of Contents
 
+- [Usage](#usage)
+- [Preview](preview)
+- [Demo](#demo)
+- [Credits](#credits)
+- [Contact](#contact)
+- [License](#license)
 
+ ## Usage
+
+ ## Preview 
+<img width="1440" alt="Screenshot 2023-08-03 at 10 50 22" src="https://github.com/ChemaKing13/20.ReactPortfolio/assets/124849302/16bddac6-dc96-45f6-bc11-4cbeaf7a2b2e">
+
+
+
+ 
+
+## Demo
+
+
+## Credits 
+
+To develop this project I need to cunsult some resources such as: 
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+- https://www.browserstack.com/guide/how-to-make-react-app-responsive
+- https://www.programiz.com/javascript/ternary
+- https://tailwindcss.com/docs/installation
+- https://fontawesome.com/icons
+- https://www.freecodecamp.org/news/best-practices-for-react/
+
+## Contact
+
+If you have any questions or feedback regarding this project, feel free to reach out to me:
+
+- Email: [jm2000ho@gmail.com](mailto:jm2000ho@gmail.com)
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for details.
