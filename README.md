@@ -13,8 +13,18 @@ This portfolio website is built using React and showcases my latest projects, pr
 
  ## Usage
 
+
  ## Preview 
-<img width="1440" alt="Screenshot 2023-08-03 at 10 50 22" src="https://github.com/ChemaKing13/20.ReactPortfolio/assets/124849302/16bddac6-dc96-45f6-bc11-4cbeaf7a2b2e">
+
+<p align="center">
+ <img width="1000" height="500" alt="Screenshot 2023-08-03 at 10 50 22" src="https://github.com/ChemaKing13/20.ReactPortfolio/assets/124849302/16bddac6-dc96-45f6-bc11-4cbeaf7a2b2e">
+</p>
+<p>
+  <img width="1000" height="500 alt="Screenshot 2023-08-03 at 10 50 43" src="https://github.com/ChemaKing13/20.ReactPortfolio/assets/124849302/dc60162a-1c70-4b01-b5e1-e701cc519fe3">
+</p>
+
+
+
 
 
 
