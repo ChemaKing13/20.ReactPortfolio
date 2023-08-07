@@ -4,14 +4,14 @@ This portfolio website is built using React and showcases my latest projects, pr
 
 ## Table of Contents
 
-- [Usage](#usage)
+
 - [Preview](preview)
 - [Demo](#demo)
 - [Credits](#credits)
 - [Contact](#contact)
 - [License](#license)
 
- ## Usage
+
 
 
  ## Preview 
@@ -22,15 +22,11 @@ This portfolio website is built using React and showcases my latest projects, pr
 <p>
   <img width="1000" height="500 alt="Screenshot 2023-08-03 at 10 50 43" src="https://github.com/ChemaKing13/20.ReactPortfolio/assets/124849302/dc60162a-1c70-4b01-b5e1-e701cc519fe3">
 </p>
-
-
-
-
-
-
  
 
 ## Demo
+
+You can find this application [here]()
 
 
 ## Credits 
@@ -43,6 +39,9 @@ To develop this project I need to cunsult some resources such as:
 - https://tailwindcss.com/docs/installation
 - https://fontawesome.com/icons
 - https://www.freecodecamp.org/news/best-practices-for-react/
+- https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+
+I also want to thank the tutor Erik Hoversten, who helped me to be able to do my deployment in guthub pages!
 
 ## Contact
 
