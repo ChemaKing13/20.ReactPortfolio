@@ -6,7 +6,7 @@ import project2 from  '../assets/password.png';
 import project3 from  '../assets/meal.png'; 
 import project4 from '../assets/note.png';
 import project5 from  '../assets/ecommerce.png'; 
-import project6 from '../assets/underconst.png'; 
+import project6 from '../assets/foodbank.png'; 
 
 const projects = [
   {
@@ -46,10 +46,10 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Project 6',
+    title: 'FoodBank',
     imageSrc: project6,
     description: 'Description of Project 2',
-    githubLink: '',
+    githubLink: 'https://github.com/jony0418/FoodBank',
   },
 ];
 
